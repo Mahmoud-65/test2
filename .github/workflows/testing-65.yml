@@ -1,1 +1,10 @@
 
+name: testing
+on: [push, workflow_dispatch]
+jobs:
+  test-lint-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: using_other_action
+        uses: Mahmoud-64/git-actions/.github/workflows/testing.yml
+      
