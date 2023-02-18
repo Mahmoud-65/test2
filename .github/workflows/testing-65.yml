@@ -3,6 +3,6 @@ name: testing
 on: [push, workflow_dispatch]
 jobs:
   test-lint-build:
-    uses: Mahmoud-64/git-actions/.github/workflows/test.yml@main      
+    uses: Mahmoud-64/git-actions/.github/workflows/testing.yml@main      
 
       
