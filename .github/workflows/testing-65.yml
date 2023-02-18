@@ -5,8 +5,9 @@ jobs:
   test-lint-build:
     runs-on: ubuntu-latest
     steps:
-      - name: printt
-        run: echo "hello"
       - name: using_other_action
-        uses: Mahmoud-64/git-actions/.github/workflows/issue.yml@main
+        uses: Mahmoud-64/git-actions/.github/workflows/issue.yml@main      
+      - name: print
+        run: echo "hello"
+
       
