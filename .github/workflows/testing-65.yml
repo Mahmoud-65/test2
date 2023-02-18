@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: print
         run: echo "hello"
-      - name: using_other_action
-        uses: Mahmoud-64/git-actions/.github/workflows/testing.yml@1
+#       - name: using_other_action
+#         uses: Mahmoud-64/git-actions/.github/workflows/testing.yml@1
       
